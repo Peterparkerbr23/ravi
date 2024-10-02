@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>O Tesouro Dos Ândalos</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/Livro Antigo.jfif" alt="">
+            <p>Semana passada, dentro de um livro que peguei na grande biblioteca de Winterfell, eu descobri
+                um texto antigo sobre um tesouro perdido. Nesse texto, o escritor deixa dicas para encontrar
+                esse tesouro e eu decidi segui-las!</p>
+            <button class="btn-proximo" data-proximo="1">A Grande Muralha</button>
+            <button class="btn-proximo" data-proximo="2">Deserto de Dorne</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>O ínicio da aventura é na Muralha, subindo ao topo encontra-se a primeira pista.</p>
+            <button class="btn-proximo" data-proximo="3">Procurar pela pista pelo gelo da Muralha</button>
+            <button class="btn-proximo" data-proximo="4">Inclinar-se sobre a borda da Muralha</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Em Dorne, você visita o Palácio Real. No texto, uma das pistas indica que para localizar o
+                tesouro mágico você deve ir para as ilhas d'outro lado do mar.À qual ilha você irá?</p>
+            <button class="btn-proximo" data-proximo="5">Ilha de Pentos</button>
+            <button class="btn-proximo" data-proximo="6">Ilha de Meereen</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>No alto gelo da Muralha, você encontra runas apontando que a próxima pista está localizada
+                em Porto Real.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para Porto Real</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/Fim da Linha Parceiro.jfif" alt="imagem fim da linha">
+            <p>Você inclina-se no parapeito da muralha e com o soprar do vento cai, a queda é longa e ao espatifar-se no chão você morre rápidamente.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Na Ilha de Pentos, você descobre um tapete escondido dento de uma moldura, apontando que a próxima
+                pista está em Porto Real.</p>
+            <button class="btn-proximo" data-proximo="7">Viajar para Porto Real</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Explorando a Ilha de Meereen, você encontra uma vendedora de bijuterias, que te fala para ir para a Ilha de Pentos.</p>
+            <button class="btn-proximo" data-proximo="8">Voltar e explorar Pentos</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Em Porto Real. Você se depara com um dilema: Septo de Baelor ou Fortaleza Vermelha</p>
+            <button class="btn-proximo" data-proximo="9">Seguir pelo Septo de Baelor</button>
+            <button class="btn-proximo" data-proximo="10">Seguir pela Fortaleza Vermelha</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>De volta à Ilha de Pentos, você finalmente encontra o tapete com as instruções. Agora, para Porto Real!</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para Porto Real</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>O septo de Baelor leva você a umas passagem secreta que revelam a entrada de uma
+                masmorra.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar a masmorra</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>A Fortaleza Vermelha é enorme e você vasculha por horas a fio. Apesar da busca cansativa,
+                não há indícios do Tesouro Encantado aqui.</p>
+            <button class="btn-proximo" data-proximo="12">Retornar e tentar o Septo</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/Espada de R'Ollor.jfif" alt="Tesouro dos Ândalos">
+            <p>Dentro das masmorras há um tesouro brilhante e cheio de ouro e jóias transbordando dele,
+                mas ao chegar perto você descobre algo lendário: a espada encantada de R'Ollor, que lhe
+                condece um poder inimaginável. Agora é toda sua para desbravar Westeros.</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Retornando e escolhendo o Septo, você finalmente encontra a masmorra que leva ao tesouro
+                encantado.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar a masmorra</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
